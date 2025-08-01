@@ -17,7 +17,7 @@ pipeline {
         
         stage ('Build & Package') {
             steps {
-                dir ('${PROJECT_DIR}') {
+                dir ("${PROJECT_DIR}") {
                     sh 'mvn clean package -DskipTests'
                 }
             }
