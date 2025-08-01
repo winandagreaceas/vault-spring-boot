@@ -59,7 +59,7 @@ pipeline {
     
     post {
         success {
-            echo 'Application deployed successfully! ✅'
+            echo 'Application deployedd successfully! ✅'
         }
         failure {
             echo 'Deployment failed. Please check the logs. ❌'
